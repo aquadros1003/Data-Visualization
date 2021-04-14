@@ -3,7 +3,7 @@ class Robaczek:
     wspolrzedna_y = 0
     ruch = 1
 
-    def __int__(self, x, y, krok):
+    def __init__(self, x, y, krok):
         self.wspolrzedna_x = x
         self.wspolrzedna_y = y
         self.ruch = krok
